@@ -4961,7 +4961,7 @@ img {
   border-radius: 50%;
   background: #fff;
   font-size: 40px;
-  color: #e3b576;
+  color: #001f5b;
   line-height: 135px;
   text-align: center;
   position: absolute;
@@ -4972,7 +4972,7 @@ img {
 }
 
 .progress .progress-bar {
-  border-color: #e3b576;
+  border-color: #001f5b;
 }
 
 .progress-name {
@@ -5032,7 +5032,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(144deg);
   }
 }
 @keyframes loading-2 {
@@ -5040,7 +5040,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(144deg);
   }
 }
 @-webkit-keyframes loading-3 {
@@ -5048,7 +5048,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(120deg);
+    transform: rotate(169deg);
   }
 }
 @keyframes loading-3 {
@@ -5056,7 +5056,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(120deg);
+    transform: rotate(169deg);
   }
 }
 @-webkit-keyframes loading-4 {
@@ -5064,7 +5064,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(46deg);
+    transform: rotate(162deg);
   }
 }
 @keyframes loading-4 {
@@ -5072,7 +5072,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(46deg);
+    transform: rotate(162deg);
   }
 }
 @-webkit-keyframes loading-5 {
@@ -5080,7 +5080,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(36deg);
+    transform: rotate(176deg);
   }
 }
 @keyframes loading-5 {
@@ -5088,7 +5088,7 @@ img {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(36deg);
+    transform: rotate(176deg);
   }
 }
 @media only screen and (max-width: 990px) {
