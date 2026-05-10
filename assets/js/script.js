@@ -492,12 +492,16 @@
             autoplay: false,
             smartSpeed: 300,
             margin: 20,
-            loop:true,
-            fade:true,
-            autoplayHoverPause:true,
-            dots: true,
+            loop: false,
+            fade: false,
+            autoplayHoverPause: false,
+            dots: false,
             nav: false,
             items: 1,
+            mouseDrag: false,
+            touchDrag: false,
+            pullDrag: false,
+            freeDrag: false,
         });
     }
     /*------------------------------------------
