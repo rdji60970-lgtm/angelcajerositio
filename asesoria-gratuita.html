@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -27,19 +27,7 @@
 
     <!-- start page-wrapper -->
     <div class="page-wrapper">
-        <!-- start preloader -->
-        <div class="preloader">
-            <div class="vertical-centered-box">
-                <div class="content">
-                    <div class="loader-circle"></div>
-                    <div class="loader-line-mask">
-                        <div class="loader-line"></div>
-                    </div>
-                    <img src="assets/images/preloader.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- end preloader -->
+
         <!-- Start header -->
         <header id="header">
             <div class="topbar">
@@ -48,7 +36,7 @@
                         <div class="col col-md-5 col-sm-12 col-12">
                             <div class="contact-info">
                                 <ul>
-                                    <li><a href="about.html">Nosotros</a></li>
+                                    <li><a href="about.html">Acerca de Nosotros</a></li>
                                     <li><a href="faq.html">Preguntas Frecuentes</a></li>
                                     <li><a href="#"><i class="ti-facebook"></i></a></li>
                                     <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -95,8 +83,7 @@
                                         <li><a href="/">Inicio</a></li>
                                         <li><a href="abogado.html">Abogado</a></li>
                                         <li><a href="faq.html">Preguntas Frecuentes</a></li>
-                                        <li><a href="cotizacion.html">Cotización Gratuita</a></li>
-                                        <li><a class="active" href="contact.html">Contacto</a></li>
+                                        <li><a href="contact.html">Contacto</a></li>
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
@@ -110,14 +97,13 @@
                                                 <form>
                                                     <div>
                                                         <input type="text" class="form-control"
-                                                            placeholder="Search here...">
+                                                            placeholder="Buscar aquí...">
                                                         <button type="submit"><i class="fi flaticon-loupe"></i></button>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="close-form">
                                         <a class="theme-btn" href="asesoria-gratuita.html">Asesoría Gratuita</a>
                                     </div>
@@ -135,10 +121,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Contacto</h2>
+                            <h2>Solicita una Cotización Gratuita</h2>
                             <ul>
                                 <li><a href="index.html">Inicio</a></li>
-                                <li><span>Contacto</span></li>
+                                <li><span>Cotización</span></li>
                             </ul>
                         </div>
                     </div>
@@ -147,107 +133,72 @@
         </div>
         <!-- end of wpo-breadcumb-section-->
 
-        <!-- start wpo-contact-pg-section -->
-        <section class="wpo-contact-pg-section section-padding">
+        <!-- start of wpo-consultancy-section -->
+        <section class="wpo-consultancy-section section-padding" style="background-color: #fff;">
             <div class="container">
-                <div class="row">
-                    <div class="col col-lg-10 offset-lg-1">
-                        <div class="office-info">
-                            <div class="row">
-                                <div class="col col-lg-4 col-md-4 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-placeholder"></i>
-                                            </div>
+                <div class="wpo-consultancy-section-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <div class="wpo-consultancy-form-area">
+                                <div class="wpo-section-title">
+                                    <h2>¿Necesitas Asesoría?,
+                                        Solicita una Cotización Gratuita</h2>
+                                    <p>Encuentra el respaldo legal que necesitas. Compártenos tus datos y un
+                                        especialista en la materia se pondrá en contacto contigo a la brevedad.
+                                    </p>
+                                </div>
+                                <form method="post" class="contact-validation-active" id="formulario de consulta">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="nombre" id="nombre"
+                                                placeholder="Tu Nombre*">
                                         </div>
-                                        <div class="office-info-text">
-                                            <h2>Dirección</h2>
-                                            <p>Valle de Chalco, Estado de México</p>
+                                        <div class="col-lg-6">
+                                            <input type="email" class="form-control" name="correo" id="correo"
+                                                placeholder="Tu Correo Electrónico*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="telefono" id="telefono"
+                                                placeholder="Teléfono">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <select name="subject" class="form-control">
+                                                <option disabled="disabled" selected>Asunto</option>
+                                                <option>Derecho Familiar</option>
+                                                <option>Derecho Civil</option>
+                                                <option>Lesiones Penal</option>
+                                                <option>Juicios Orales</option>
+                                                <option>Derecho Mercantíl</option>
+                                                <option>Derecho Notarial</option>
+                                                <option>Derecho Migratorio</option>
+                                            </select>
+                                        </div>
+                                        <div class="fullwidth col-lg-12 ">
+                                            <textarea class="form-control" name="note" id="note"
+                                                placeholder="Descripción del Caso..."></textarea>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col col-lg-4 col-md-4 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-email"></i>
-                                            </div>
-                                        </div>
-                                        <div class="office-info-text">
-                                            <h2>Correo Electrónico</h2>
-                                            <p>abogadoangelcajero@gmail.com</p>
+                                    <div class="submit-area">
+                                        <button type="submit" class="theme-btn">Enviar Ahora</button>
+                                        <div id="loader">
+                                            <i class="ti-reload"></i>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col col-lg-4 col-md-4 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-phone-call"></i>
-                                            </div>
-                                        </div>
-                                        <div class="office-info-text">
-                                            <h2>Llama Ahora</h2>
-                                            <p>5546034896</p>
+                                    <div class="clearfix error-handling-messages">
+                                        <div id="success">Gracias</div>
+                                        <div id="error"> Ocurrió un error al enviar el correo. Por favor, inténtalo de
+                                            nuevo más tarde.
                                         </div>
                                     </div>
-                                </div>
+                                </form>
+                                <div class="border-style"></div>
                             </div>
-                        </div>
-                        <div class="wpo-contact-title">
-                            <h2>¿Tienes alguna pregunta?</h2>
-                            <p>Escribenos para agendar una consulta personalizada. <span style="white-space: nowrap">En
-                                    Asesoría Jurídica,</span> tu caso es nuestra prioridad.</p>
-                        </div>
-                        <div class="wpo-contact-form-area">
-                            <form method="post" class="contact-validation-active" id="contact-form-main">
-                                <div>
-                                    <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Nombre Completo">
-                                </div>
-                                <div>
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Correo Electrónico">
-                                </div>
-                                <div class="fullwidth">
-                                    <input type="text" class="form-control" name="phone" id="phone"
-                                        placeholder="Teléfono">
-                                </div>
-
-                                <div class="fullwidth">
-                                    <textarea class="form-control" name="note" id="note"
-                                        placeholder="Mensaje..."></textarea>
-                                </div>
-                                <div class="submit-area">
-                                    <button type="submit" class="theme-btn">Ponte En Contacto Con Nosotros</button>
-                                    <div id="loader">
-                                        <i class="ti-reload"></i>
-                                    </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Gracias</div>
-                                    <div id="error"> Ocurrió un error al enviar el correo. Por favor, inténtalo de nuevo
-                                        más tarde. </div>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
-            </div> <!-- end container -->
-        </section>
-        <!-- end wpo-contact-pg-section -->
-
-        <!--  start wpo-contact-map -->
-        <section class="wpo-contact-map-section">
-            <h2 class="hidden">Mapa de Contacto</h2>
-            <div class="wpo-contact-map">
-                <iframe src="https://maps.google.com/maps?q=Valle+de+Chalco,+Estado+de+Mexico,+Mexico&output=embed"
-                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <!-- end wpo-contact-map -->
-
+        <!-- end of wpo-consultancy-section -->
 
         <!-- start of wpo-site-footer-section -->
         <footer class="wpo-site-footer">
@@ -262,7 +213,6 @@
                                 <p>Justicia, Ética y Resultados. Despacho legal especializado en la defensa integral de
                                     nuestros clientes. Protegemos lo que más te importa con profesionalismo y
                                     determinación.</p>
-
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
@@ -276,7 +226,7 @@
                                     <li><a href="practice-single.html">Derecho Penal</a></li>
                                     <li><a href="practice-single.html">Juicios Orales</a></li>
                                     <li><a href="practice-single.html">Derecho Mercantíl</a></li>
-                                    <li><a href="practice-single.html">Derecho Notaríal</a></li>
+                                    <li><a href="practice-single.html">Derecho Notarial</a></li>
                                     <li><a href="practice-single.html">Derecho Migratorio</a></li>
                                 </ul>
                             </div>
@@ -284,21 +234,19 @@
                         <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="widget tag-widget">
                                 <div class="widget-title">
-                                    <h3>Navegar por Etiqueta</h3>
+                                    <h3>Explorar por Etiqueta</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="practice-single.html">DerechoFamiliar</a></li>
-                                    <li><a href="practice-single.html">Derecho Civil</a></li>
-                                    <li><a href="practice-single.html">Deerecho Penal</a></li>
+                                    <li><a href="practice-single.html">Derecho Familiar</a></li>
+                                    <li><a href="practice-single.html">Derecho Cívil</a></li>
+                                    <li><a href="practice-single.html">Derecho Penal</a></li>
                                     <li><a href="practice-single.html">Juicios Orales</a></li>
-                                    <li><a href="practice-single.html">Deerecho Mercantíl</a></li>
-                                    <li><a href="practice-single.html">Derecho Notaríal</a></li>
+                                    <li><a href="practice-single.html">Derecho Mercantíl</a></li>
+                                    <li><a href="practice-single.html">Derecho Notarial</a></li>
                                     <li><a href="practice-single.html">Derecho Migratorio</a></li>
-
                                 </ul>
                             </div>
                         </div>
-
                         <div class="col col-lg-2 col-md-6 col-sm-12 col-12">
                             <div class="widget social-widget">
                                 <div class="widget-title">
@@ -323,7 +271,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-xs-12">
-                            <p class="copyright"> Copyright &copy; 2026 Consultoría Jurídica. Todos los Derechos
+                            <p class="copyright"> Derechos de Autor &copy; 2026 Consultoría Jurídica. Todos los Derechos
                                 Reservados.</p>
                         </div>
                     </div>
@@ -331,7 +279,6 @@
             </div>
         </footer>
         <!-- end of wpo-site-footer-section -->
-
 
     </div>
     <!-- end of page-wrapper -->
