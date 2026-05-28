@@ -254,32 +254,26 @@
                     <div class="col-lg-12">
                         <div class="question-touch">
                             <h2>Contáctenos</h2>
-                            <form method="post" class="contact-validation-active" id="contact-form" novalidate="Anular">
+                            <form action="https://formsubmit.co/jimenagesselrd@gmail.com" method="POST">
+                                <!-- Configuración FormSubmit -->
+                                <input type="hidden" name="_subject" value="Nueva pregunta - Consultoría Jurídica">
+                                <input type="hidden" name="_next" value="http://juridica-profesional.com.mx/thanks.html">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
                                 <div class="half-col">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+                                    <input type="text" name="name" class="form-control" placeholder="Nombre" required>
                                 </div>
                                 <div class="half-col">
-                                    <input type="email" name="email" id="email" class="form-control"
-                                        placeholder="Email">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
                                 </div>
                                 <div class="half-col">
-                                    <input type="text" name="phone" id="phone" class="form-control"
-                                        placeholder="Teléfono">
+                                    <input type="text" name="phone" class="form-control" placeholder="Teléfono">
                                 </div>
                                 <div>
-                                    <textarea class="form-control" name="note" id="note"
-                                        placeholder="Pregunta"></textarea>
+                                    <textarea class="form-control" name="note" placeholder="Pregunta" required></textarea>
                                 </div>
                                 <div class="submit-btn-wrapper">
                                     <button type="submit" class="theme-btn">Enviar ahora</button>
-                                    <div id="loader">
-                                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                                    </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Gracias por su mensaje.</div>
-                                    <div id="error"> Se ha producido un error al enviar el correo electrónico. Inténtalo
-                                        de nuevo más tarde. </div>
                                 </div>
                             </form>
                         </div>
