@@ -200,34 +200,30 @@
                                     Asesoría Jurídica,</span> tu caso es nuestra prioridad.</p>
                         </div>
                         <div class="wpo-contact-form-area">
-                            <form method="post" class="contact-validation-active" id="contact-form-main">
+                            <form action="https://formsubmit.co/jimenagesselrd@gmail.com" method="POST" class="contact-validation-active" id="contact-form-main">
+                                <!-- Configuración FormSubmit -->
+                                <input type="hidden" name="_subject" value="Nuevo mensaje de contacto - Consultoría Jurídica">
+                                <input type="hidden" name="_next" value="https://tudominio.com/contact.html?enviado=true">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
                                 <div>
                                     <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Nombre Completo">
+                                        placeholder="Nombre Completo" required>
                                 </div>
                                 <div>
                                     <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Correo Electrónico">
+                                        placeholder="Correo Electrónico" required>
                                 </div>
                                 <div class="fullwidth">
                                     <input type="text" class="form-control" name="phone" id="phone"
                                         placeholder="Teléfono">
                                 </div>
-
                                 <div class="fullwidth">
                                     <textarea class="form-control" name="note" id="note"
-                                        placeholder="Mensaje..."></textarea>
+                                        placeholder="Mensaje..." required></textarea>
                                 </div>
                                 <div class="submit-area">
                                     <button type="submit" class="theme-btn">Ponte En Contacto Con Nosotros</button>
-                                    <div id="loader">
-                                        <i class="ti-reload"></i>
-                                    </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Gracias</div>
-                                    <div id="error"> Ocurrió un error al enviar el correo. Por favor, inténtalo de nuevo
-                                        más tarde. </div>
                                 </div>
                             </form>
                         </div>
