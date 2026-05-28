@@ -247,12 +247,17 @@
                             <div class="wpo-contact-area ex-wiget">
                                 <h2>Contactame</h2>
                                 <div class="quote-form">
-                                    <form>
+                                    <form action="https://formsubmit.co/jimenagesselrd@gmail.com" method="POST">
+                                        <!-- Configuración FormSubmit -->
+                                        <input type="hidden" name="_subject" value="Nuevo contacto desde perfil de abogado - Consultoría Jurídica">
+                                        <input type="hidden" name="_next" value="https://juridica-profesional.com.mx/thanks.html">
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_template" value="table">
                                         <div class="form-group half-col">
-                                            <input type="text" class="form-control" placeholder="Nombre:" name="name">
+                                            <input type="text" class="form-control" placeholder="Nombre:" name="name" required>
                                         </div>
                                         <div class="form-group half-col">
-                                            <input type="email" class="form-control" placeholder="Correo:" name="email">
+                                            <input type="email" class="form-control" placeholder="Correo:" name="email" required>
                                         </div>
                                         <div class="form-group half-col">
                                             <input type="text" class="form-control" placeholder="Asunto:"
@@ -264,7 +269,7 @@
                                         </div>
                                         <div class="form-group full-col">
                                             <textarea class="form-control" name="note"
-                                                placeholder="Descripción..."></textarea>
+                                                placeholder="Descripción..." required></textarea>
                                         </div>
                                         <div class="form-group full-col">
                                             <button class="btn theme-btn" type="submit">Ponerse en Contacto</button>

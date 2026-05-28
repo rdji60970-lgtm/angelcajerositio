@@ -147,15 +147,20 @@
                                         especialista en la materia se pondrá en contacto contigo a la brevedad.
                                     </p>
                                 </div>
-                                <form method="post" class="contact-validation-active" id="formulario de consulta">
+                                <form action="https://formsubmit.co/jimenagesselrd@gmail.com" method="POST">
+                                    <!-- Configuración FormSubmit -->
+                                    <input type="hidden" name="_subject" value="Nueva solicitud de asesoría - Consultoría Jurídica">
+                                    <input type="hidden" name="_next" value="https://juridica-profesional.com.mx/thanks.html">
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_template" value="table">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <input type="text" class="form-control" name="nombre" id="nombre"
-                                                placeholder="Tu Nombre*">
+                                                placeholder="Tu Nombre*" required>
                                         </div>
                                         <div class="col-lg-6">
                                             <input type="email" class="form-control" name="correo" id="correo"
-                                                placeholder="Tu Correo Electrónico*">
+                                                placeholder="Tu Correo Electrónico*" required>
                                         </div>
                                         <div class="col-lg-6">
                                             <input type="text" class="form-control" name="telefono" id="telefono"
@@ -175,20 +180,11 @@
                                         </div>
                                         <div class="fullwidth col-lg-12 ">
                                             <textarea class="form-control" name="note" id="note"
-                                                placeholder="Descripción del Caso..."></textarea>
+                                                placeholder="Descripción del Caso..." required></textarea>
                                         </div>
                                     </div>
                                     <div class="submit-area">
                                         <button type="submit" class="theme-btn">Enviar Ahora</button>
-                                        <div id="loader">
-                                            <i class="ti-reload"></i>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix error-handling-messages">
-                                        <div id="success">Gracias</div>
-                                        <div id="error"> Ocurrió un error al enviar el correo. Por favor, inténtalo de
-                                            nuevo más tarde.
-                                        </div>
                                     </div>
                                 </form>
                                 <div class="border-style"></div>
